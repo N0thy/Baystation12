@@ -46,7 +46,7 @@ var/const/CHARACTER_PREFERENCE_INPUT_TITLE = "Character Preference"
 /datum/category_group/player_setup_category/vore
 	name = "Genemods"
 	sort_order = 9
-	category_item_type = /datum/category_item/player_setup_item/vore/ears/save_character
+	category_item_type = /datum/category_item/player_setup_item/vore
 
 /****************************
 * Category Collection Setup *
