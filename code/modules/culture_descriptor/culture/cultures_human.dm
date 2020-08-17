@@ -13,9 +13,7 @@
 		LANGUAGE_HUMAN_IBERIAN,
 		LANGUAGE_HUMAN_RUSSIAN,
 		LANGUAGE_SPACER,
-		LANGUAGE_GUTTER,
-		LANGUAGE_SIGN,
-		LANGUAGE_HUMAN_GAIAN
+		LANGUAGE_SIGN
 	)
 
 /decl/cultural_info/culture/human/martian_surfacer
@@ -78,6 +76,7 @@
 	human space."
 	economic_power = 1
 
+
 /decl/cultural_info/culture/human/plutonian
 	name = CULTURE_HUMAN_PLUTO
 	description = "You are from Pluto, one of many denizens of this cruel and unforgiving world. For centuries Pluto has been in a slow state of decay and decline, resulting in \
@@ -85,6 +84,15 @@
 	the planet has led to the people of Pluto having something of a seedy reputation, its citizens being viewed with disrepute. The people themselves, however, are usually \
 	just happy to get off the rock and to healthier locales. Unfortunately, despite the efforts of the wider SCG, many Plutonians tend to maintain criminal ties, even offworld."
 	economic_power = 0.8
+	secondary_langs = list (LANGUAGE_HUMAN_EURO,
+		LANGUAGE_HUMAN_CHINESE,
+		LANGUAGE_HUMAN_ARABIC,
+		LANGUAGE_HUMAN_INDIAN,
+		LANGUAGE_HUMAN_IBERIAN,
+		LANGUAGE_HUMAN_RUSSIAN,
+		LANGUAGE_SPACER,
+		LANGUAGE_GUTTER,
+		LANGUAGE_SIGN)
 
 /decl/cultural_info/culture/human/earthling
 	name = CULTURE_HUMAN_EARTH
@@ -124,10 +132,10 @@
 
 /decl/cultural_info/culture/human/confederate
 	name = CULTURE_HUMAN_CONFED
-	description = "You are from Komirov (not Earth), in the Gilgamesh system. The capital world of the United Colonies of Gilgamesh, your people embody what it means to be a part of the UCG. \
-	Unfortunately, the years since the war have not been easy on Komirov and the long period of economic recovery has not made life easy. The people of Komirov are typically employed \
-	in the military, industrial, government or service sectors, with an emphasis being placed on military service. Komirovians today are generally poor, bitter and a somewhat broken people angry and \
-	resentful about their loss in the Aigaion Conflict. An upbringing on Komirov emphasises an odd mix of service to the state, liberalism and militarism."
+	description = "You are from Terra (not Earth), in the Gilgamesh system. The capital world of the Gilgamesh Colonial Confederation, your people embody what it means to be a part of the GCC. \
+	Unfortunately, the years since the war have not been easy on Terra and the long period of economic recovery has not made life easy. The people of Terra are typically employed \
+	in the military, industrial, government or service sectors, with an emphasis being placed on military service. Terrans today are generally poor, bitter and a somewhat broken people angry and \
+	resentful about their loss in the Gaia Conflict. An upbringing on Terra emphasises an odd mix of service to the state, liberalism and militarism."
 	language = LANGUAGE_HUMAN_RUSSIAN
 	economic_power = 0.9
 
@@ -135,6 +143,15 @@
 	name = CULTURE_HUMAN_OTHER
 	description = "Some people are from places no one has ever heard of or places too wild and fantastical to make it into Encyclopedia Galactica. You are one of these. "
 	economic_power = 1
+	secondary_langs = list (LANGUAGE_HUMAN_EURO,
+		LANGUAGE_HUMAN_CHINESE,
+		LANGUAGE_HUMAN_ARABIC,
+		LANGUAGE_HUMAN_INDIAN,
+		LANGUAGE_HUMAN_IBERIAN,
+		LANGUAGE_HUMAN_RUSSIAN,
+		LANGUAGE_SPACER,
+		LANGUAGE_GUTTER,
+		LANGUAGE_SIGN)
 
 /decl/cultural_info/culture/human/vatgrown
 	name = CULTURE_HUMAN_VATGROWN
