@@ -15,7 +15,7 @@
 /decl/cultural_info/faction/scg/fleet
 	name = FACTION_FLEET
 	description = "The Fleet is the primary component of the SCG Defence Forces. It mostly protects SCG space from pirates, smugglers, \
-	and occasional vox raiders, with its last serious military engagement being the Gaia war over 10 years ago. \
+	and occasional vox raiders, with its last serious military engagement being the Aigaion war over 10 years ago. \
 	The oldest component of the Defence Forces, the Fleet considers itself the pinnacle of Human military accomplishment. \
 	It is well funded, but seen as complacent and bloated. It is made up of five Fleets, with missions ranging from \
 	diplomatic security for Sol dignitaries, to border patrol along the vast frontier and quick reaction force duties. \
@@ -39,13 +39,13 @@
 
 /decl/cultural_info/faction/gcc
 	name = FACTION_INDIE_CONFED
-	description = "The Independent Colonial Confederation of Gilgamesh, commonly referred to as the Gilgamesh Colonial Confederation (GCC), is a regional power in human space,\
-	bordered by the Sol Central Government towards the galactic centre. The capital of the Confederation is the city of Ameranth on the planet of Terra \
-	in the Gilgamesh system. Externally heavily militant and isolationist, the GCC, internally, is heavily libertarian, with \
-	a strong focus on independent planetary government with the GCC itself only handling defence, foreign relations and some intergalactic trade. \
-	Increasingly anti non-human, the GCC is in a cold war with the Sol Central Government following  the Gaia Conflict, a large \
-	scale conflict between the SCG and GCC that saw a great deal of death and destruction. In Sol space \"Indies\" as they are known are \
-	heavily mistrusted and in some instances, met with downright hostility. Today the GCC continues to be an economic powerhouse following \
+	description = "The United Colonies of Gilgamesh is a regional power in human space,\
+	bordered by the Sol Central Government towards the galactic centre. The capital of the United Colonies is the city of Ameranth on the planet of Komirov \
+	in the Gilgamesh system. Externally heavily militant and isolationist, the UCG, internally, is heavily libertarian, with \
+	a strong focus on independent planetary government with the UCG itself only handling defence, foreign relations and some intergalactic trade. \
+	Increasingly anti non-human, the UCG is in a cold war with the Sol Central Government following  the Aigaion Conflict, a large \
+	scale conflict between the SCG and UCG that saw a great deal of death and destruction. In Sol space \"Indies\" as they are known are \
+	heavily mistrusted and in some instances, met with downright hostility. Today the UCG continues to be an economic powerhouse following \
 	a period of steady economic recovery, with most of its exports being manufactured goods, primarily armaments."
 	economic_power = 0.9
 	subversive_potential = 50
@@ -120,15 +120,6 @@
 	security, close protection, asset protection, search and rescue and peacekeeping and escort duties. A relatively quiet and new company, \
 	it has quickly established itself as a reliable and effective provider of security solutions. This has often put it at odds with its main \
 	competitor, SAARE."
-	subversive_potential = 15
-
-/decl/cultural_info/faction/saare
-	name = FACTION_SAARE
-	description = "SAARE (Strategic Assault and Asset Retention Enterprises) is a quickly growing Private Military Corporation catering to large \
-	firms requiring discrete military and private security services. The company has taken to hiring skilled veterans from both private and public \
-	military services but have begun instituting training programs to breed their own operatives for the future. Typical assignments for SAARE \
-	contractors include private law enforcement, ship escort, location security, VIP escort, and VIP or asset recovery. In the last decade, the \
-	company has recently signed onto a number of contracts with NanoTrasen to complement their own Asset Protection forces."
 	subversive_potential = 15
 
 /decl/cultural_info/faction/dais
