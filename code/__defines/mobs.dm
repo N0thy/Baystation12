@@ -294,7 +294,7 @@
 #define SPECIES_VOXPARIAH   "Vox Pariah"
 #define SPECIES_IPC         "Machine"
 #define SPECIES_UNATHI      "Unathi"
-#define SPECIES_SERGAL      "Sergal"
+#define SPECIES_SERGAL      "Khiros"
 #define SPECIES_NORTHERN    "Northern Sergal"
 #define SPECIES_EASTERN     "Eastern Sergal"
 #define SPECIES_SKRELL      "Skrell"
