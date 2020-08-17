@@ -97,6 +97,13 @@ var/global/list/datum/dna/gene/dna_genes[0]
 	var/b_type = "A+"  // Should probably change to an integer => string map but I'm lazy.
 	var/real_name          // Stores the real name of the person who originally got this dna datum. Used primarily for changelings,
 
+	// BastionStation CUSTOM SPECIES
+	var/custom_species
+	var/base_species = "Custom Human"
+	var/list/species_traits = list()
+	var/blood_color = "#f5e400"
+	// BastionStation CUSTOM SPECIES END
+
 	// New stuff
 	var/species = SPECIES_HUMAN
 	var/s_base = ""
@@ -112,6 +119,9 @@ var/global/list/datum/dna/gene/dna_genes[0]
 	new_dna.species=species
 	new_dna.body_markings=body_markings.Copy()
 	new_dna.s_base=s_base
+	new_dna.base_species=base_species //BastionStation Edit
+	new_dna.species_traits=species_traits.Copy() //BastionStation Edit
+	new_dna.blood_color=blood_color //BastionStation Edit
 	for(var/b=1;b<=DNA_SE_LENGTH;b++)
 		new_dna.SE[b]=SE[b]
 		if(b<=DNA_UI_LENGTH)
